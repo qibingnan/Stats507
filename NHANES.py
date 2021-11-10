@@ -25,6 +25,7 @@ cohorts = (
 demo_cols = {
     'SEQN': 'id',
     'RIDAGEYR': 'age',
+    'RIAGENDR': 'gender',
     'RIDRETH3': 'race',
     'DMDEDUC2': 'education',
     'DMDMARTL': 'marital_status',
@@ -39,7 +40,7 @@ demo_cols = {
 demo_int = ['id', 'age', 'psu', 'strata']
 
 # columns to convert to categorical
-demo_cat = ['race', 'education', 
+demo_cat = ['race', 'gender', 'education', 
             'marital_status', 'exam_status']
 
 # demographic data
